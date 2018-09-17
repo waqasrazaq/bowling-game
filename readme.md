@@ -18,6 +18,7 @@ Make sure that **PHP**, **Git** and **Composer package manager** is already inst
 The installation process is quite simple and straightforward. Just follow the below steps
  
 - Open the terminal and navigate into the root directory of the web server and then execute the below command to download the code from github
+
 ```
 git clone https://github.com/waqasrazaq/bowling-game.git
 ```
@@ -29,10 +30,12 @@ It will take some time, so wait for a couple of minutes to complete the process.
 
 ## Example
 Open terminal, navigate to the project directory and execute the below command
+
 ``` php artisan game-input:frames "[[5,2],[8,1],[6,4],[10],[0,5],[2,6],[8,1],[5,3],[6,1],[10,2,6]]" ```
 
 ## Tests
 Open terminal, navigate to the project directory and execute the below command
+
 ``` vendor/bin/phpunit ```
 
 
